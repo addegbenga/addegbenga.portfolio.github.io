@@ -91,7 +91,7 @@
     .subscribe-section {
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: 500px;
         height: 100vh;
         margin: auto;
     }
@@ -100,6 +100,8 @@
     .modal-btn {
         align-self: center;
         margin: 10px;
+        text-align: center;
+        font-family: cursive;
     }
     
     .modal-btn {
@@ -198,6 +200,18 @@
     .pic,
     .prop {
         align-self: center;
+        font-family: cursive;
+    }
+    
+    .pic {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        background: rgba(75, 0, 130, .3);
+        padding: 10px;
+        border: 1px solid indigo;
+        border-bottom-right-radius: 15px;
+        margin-top: 5px;
     }
     
     .adeyemi {
